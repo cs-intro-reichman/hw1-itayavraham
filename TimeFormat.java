@@ -19,10 +19,10 @@ public class TimeFormat {
             hours12Format = Math.abs(12-hours);
             amPm = "PM";
         }
-		if(12-hours == 0)
-		amPm = "PM";
         else
         amPm = "AM";
+		if(12-hours == 0)
+		amPm = "PM";
         System.out.println(hours12Format+":"+ args[0].charAt(3) + args[0].charAt(4)+" "+amPm);
 	}
 }
