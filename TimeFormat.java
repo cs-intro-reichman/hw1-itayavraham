@@ -11,7 +11,8 @@ public class TimeFormat {
 		// and then uses parseInt to cast the resulting string as an int.
 		int hours = Integer.parseInt("" + args[0].charAt(0) + args[0].charAt(1));
 		// Does the same with the minutes part of the input.
-		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4)); //Integer removes leading zeros and as such this will not be used.
+		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4)); 
+		//Integer removes leading zeros and as such this minutes integer will not be used.
         String amPm;
         int hours12Format = hours;
         if(12-hours < 0) {
