@@ -5,6 +5,6 @@ public class Bill3 {
 	    int bill = Integer.parseInt(args[3]); //Question said to get an integer instead of a double(?)
         double result = Math.ceil(bill/3.0); //Dividing the integer input by 3 + rounding the result
 	    System.out.println("Dear "+ name3 +", "+ name2 +", and "
-			       + name1 +": pay "+ result +" shekels each");  
+			       + name1 +": pay "+ result +" Shekels each");  
 	}
 }
