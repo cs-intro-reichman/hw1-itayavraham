@@ -7,6 +7,7 @@ public class Ascend {
         System.out.println(a +" "+b+" "+c);
         int sum = a + b + c;
         int min = Math.min(Math.min(a,b),c), max = Math.max(Math.max(a,b),c), middle = sum-(min+max);
+        //Random occuring thought- also possible to solve simply with middle = Math.max(Math.min(a,b), Math.min(Math.max(a,b),c))
         System.out.println(min +" "+middle+" "+max);
 	}
 }

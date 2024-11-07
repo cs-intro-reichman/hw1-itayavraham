@@ -6,5 +6,7 @@ public class Bill3 {
         double result = Math.ceil(bill/3.0); //Dividing the integer input by 3 + rounding the result
 	    System.out.println("Dear "+ name3 +", "+ name2 +", and "
 			       + name1 +": pay "+ result +" Shekels each");  
+
+
 	}
 }
